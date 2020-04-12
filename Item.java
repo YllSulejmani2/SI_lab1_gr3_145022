@@ -4,14 +4,39 @@ class Item {
 	double price;
 
         constant double danok A = 18, B = 5, B = 0;
+    
+    public Item(int id, String name, double price) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+    }
 
-	//TODO add variable.
+    public int getId() {
+        return id;
+    }
 
-	//TODO constructor
+    public void setId(int id) {
+        this.id = id;
+    }
 
-	//TODO setters and getters
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
 
 	double taxReturn () {
-		//TODO
+		
 	}
 }
